@@ -1,1 +1,17 @@
-[Technical Documentation](https://docs.google.com/document/d/1nOTT40DGWmQvxquf7pQpLTaANFN8hLlpL7dzZkzZNg4/edit)
+# Openbravo Kecak Adapter
+
+## Web Services
+
+### Record Count
+
+#### URL
+`/ws/com.kinnarastudio.openbravo.kecakadapter.RecordCount/<Table Entity>`
+
+#### Method
+GET
+
+#### Parameters
+- _where - __Where condition__
+
+#### Example
+`http://localhost/ob/ws/com.kinnarastudio.openbravo.kecakadapter.RecordCount/BusinessPartner?_where=vendor=true`
