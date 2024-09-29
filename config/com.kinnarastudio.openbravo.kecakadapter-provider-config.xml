@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provider>
+	<bean>
+		<name>RecordCount</name>
+		<class>com.kinnarastudio.openbravo.kecakadapter.webservice.RecordCountWebService</class>
+		<singleton>true</singleton>
+	</bean>
+</provider>
