@@ -5,13 +5,23 @@
 ### Record Count
 
 #### URL
-`/ws/com.kinnarastudio.openbravo.kecakadapter.RecordCount/<Table Entity>`
+`<Host>/ws/com.kinnarastudio.openbravo.kecakadapter.RecordCount/<Table Entity>`
 
 #### Method
 GET
 
 #### Parameters
-- _where - __Where condition__
+- __where_ - Where condition
 
 #### Example
+##### Request
 `http://localhost/ob/ws/com.kinnarastudio.openbravo.kecakadapter.RecordCount/BusinessPartner?_where=vendor=true`
+
+##### Response
+```json
+{
+    "response": {
+        "count": 37
+    }
+}
+```
